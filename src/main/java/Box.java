@@ -18,7 +18,8 @@ public class Box {
         System.out.println("Volume myBox1 = " + myBox1.volume());
     }
 
-    public static void extendBox(Box box, int num) {
+    public static void extendBox(Box box,
+                                 int num) {
         box.length += num;
         box.width += num;
         box.height += num;
